@@ -9,3 +9,9 @@
 
 # KdTree.dot
   A sample of document of the Kd-Tree.
+
+# Homework_i.py
+  This series of files are mainly about programming to solve the reality.
+
+# DLB- HE MINGSHAN - 0128(KNN).pdf
+  This is mainly note which have sorted out the KNN knowledge.

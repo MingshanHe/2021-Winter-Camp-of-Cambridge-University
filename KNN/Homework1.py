@@ -1,9 +1,10 @@
- #
- # @Author: Mingshan He 
- # @Date: 2021-01-31 18:38:08 
- # @Last Modified by:   mikey.zhaopeng 
- # @Last Modified time: 2021-01-31 18:38:08 
- #
+# /*
+#  * @Author: Beal. Mingshan He 
+#  * @Date: 2021-01-31 19:40:16 
+#  * @Last Modified by:   Beal. Mingshan He 
+#  * @Last Modified time: 2021-01-31 19:40:16 
+#  * 
+#  */
 import numpy as np
 class Test(object):
     def __init__(self,x):
