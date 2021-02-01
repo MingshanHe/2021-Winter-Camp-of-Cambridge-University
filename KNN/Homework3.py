@@ -1,3 +1,10 @@
+# /*
+#  * @Author: Beal. Mingshan He 
+#  * @Date: 2021-01-31 19:43:29 
+#  * @Last Modified by:   Beal. Mingshan He 
+#  * @Last Modified time: 2021-01-31 19:43:29 
+#  * @Description: This is mainly about the homework 3.
+#  */
 import numpy as np
 import matplotlib.pyplot as plt
 class Test(object):

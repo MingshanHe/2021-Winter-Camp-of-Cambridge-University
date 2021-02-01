@@ -1,9 +1,9 @@
 # /*
 #  * @Author: Beal. Mingshan He 
-#  * @Date: 2021-01-31 19:40:16 
+#  * @Date: 2021-01-31 19:42:29 
 #  * @Last Modified by:   Beal. Mingshan He 
-#  * @Last Modified time: 2021-01-31 19:40:16 
-#  * 
+#  * @Last Modified time: 2021-01-31 19:42:29 
+#  * @Description: This is mainly about the homework1 in pdf.
 #  */
 import numpy as np
 class Test(object):
