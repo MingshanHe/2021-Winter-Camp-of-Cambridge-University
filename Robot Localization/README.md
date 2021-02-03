@@ -17,7 +17,7 @@
 * 有0.5的概率原地不动
 * 剩下的0.5将在剩下的四种操作中随机选择
 
-<img src="C:\Users\河明山\Desktop\Github\2021 Winter Camp\Robot Localization\Pictures\2.PNG" style="zoom: 67%;" />
+<img src="Robot Localization\Pictures\2.PNG" style="zoom: 67%;" />
 
   从图中可以看出，在边界处和角落处将进行单独分析和考虑。分析如下：
 
