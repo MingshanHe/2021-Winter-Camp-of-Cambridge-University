@@ -4,7 +4,7 @@
 
   假设我们有一个非常正规的9*9的栅格地图，具体的可以通过Gazebo中的建立World来实现，如果规格变大，那么相对应的计算成本也将会增加，所以尽量以小一些的地图来完成实现。
 
-<img src="C:\Users\河明山\Desktop\Github\2021 Winter Camp\Robot Localization\Pictures\1.PNG" style="zoom:50%;" />
+<img src="\Robot Localization\Pictures\1.PNG" style="zoom:50%;" />
 
   再实现的过程中，用到的是列表。
 
