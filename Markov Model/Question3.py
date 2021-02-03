@@ -49,7 +49,7 @@ def simulate(T):
     states[0] = draw_from(pi)
     observations[0] = draw_from(B[states[0],:])
     for t in range(1, T):
-        states[t] = draw_from(A[states[t-1],:])
+        states[t]       = draw_from(A[states[t-1],:])
         observations[t] = draw_from(B[states[t],:])
     return observations, states
 
@@ -65,8 +65,8 @@ def generate_index_map(lables):
  
 states_id2label, states_label2id              =  generate_index_map(states)
 observations_id2label, observations_label2id  =  generate_index_map(observations)
-print(states_id2label, states_label2id)
-print(observations_id2label, observations_label2id)
+# print(states_id2label, states_label2id)
+# print(observations_id2label, observations_label2id)
 
 def convert_map_to_vector(map_, label2id):
     """将概率向量从dict转换成一维array"""
@@ -100,7 +100,6 @@ print(states_data)
 print("天气的状态: ", [states_id2label[index] for index in states_data])
 print("穿着的观测: ", [observations_id2label[index] for index in observations_data])
 
-#Problem.1: Calculating Probility
 def forward(obs_seq):
     """前向算法"""
     N = A.shape[0]
@@ -110,34 +109,10 @@ def forward(obs_seq):
     F = np.zeros((N,T))
     F[:,0] = pi * B[:, obs_seq[0]]
 
-/*
- * @Author: MingshanHe
- * @Email: hemingshan@robotics.github.com
- * @Date: 2021-02-03 15:15:55
- * @Last Modified by: MingshanHe
- * @Last Modified time: 2021-02-03 15:16:15
- * @Description: Description
- */
     for t in range(1, T):
         for n in range(N):
             F[n,t] = np.dot(F[:,t-1], (A[:,n])) * B[n, obs_seq[t]]
 
     return F
-
-def backward(obs_seq):
-    """后向算法"""
-    N = A.shape[0]
-    T = len(obs_seq)
-    # X保存后向概率矩阵
-    X = np.zeros((N,T))
-    X[:,-1:] = 1
-
-    for t in reversed(range(T-1)):
-        for n in range(N):
-            X[n,t] = np.sum(X[:,t+1] * A[n,:] * B[:, obs_seq[t+1]])
-
-    return X
-
-cloth = [0,1,1]
-day = forward(cloth)
-print(day)
+x = [1,0,1,0,0,2]
+print(forward(x))
