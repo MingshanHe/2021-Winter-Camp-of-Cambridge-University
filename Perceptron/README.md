@@ -56,4 +56,4 @@ $$
 b&\longleftarrow b + \eta y_i\\
 \end{align}
 $$
-![](Picture\3.PNG)
+<img src="Picture\3.PNG" style="zoom:67%;" />
