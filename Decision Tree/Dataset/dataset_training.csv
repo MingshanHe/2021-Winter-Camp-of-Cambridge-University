@@ -1,0 +1,11 @@
+Symptom B,Symptom C,Symptom F,Infected
+no,no,no,0
+yes,yes,yes,1
+no,yes,yes,0
+yes,no,yes,1
+no,yes,no,0
+yes,no,yes,1
+yes,no,yes,1
+yes,yes,no,1
+no,yes,no,0
+yes,yes,no,0
