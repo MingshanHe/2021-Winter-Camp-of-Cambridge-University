@@ -64,3 +64,4 @@
   所以通过递归公式，可以计算$\Pr[y_t|x_{1...t}]$：
 
 <img src="Pictures\8.PNG" style="zoom:80%;" />
+由于空间有限，将实现的具体仿真代码放到了另一个 [Repository](https://github.com/MingshanHe/MonteCarlo-Localizatoin-and-Navigation.git)
