@@ -244,7 +244,7 @@ if __name__ == "__main__":
 
   And this will generate a Decision Tree like this:
 
-![](C:\Users\河明山\Desktop\Github\2021 Winter Camp\decision_tree_id3.png)
+![](C:\Users\河明山\Desktop\Github\2021 Winter Camp\Decision Tree\decision_tree_id3.png)
 
   So I can calculate the training error and test error, which is 
 $$
